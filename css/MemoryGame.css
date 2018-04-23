@@ -1,0 +1,82 @@
+.Coluna{
+    margin: 5px;
+    padding: 0px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    float: left;
+}
+
+#jogo{
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+}
+#Exercicio{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 750px;
+}
+#Exercicio table{
+    margin-top: 50px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+#Exercicio table:hover{
+    
+}
+
+td, th {
+    border: none;
+}
+
+.selected{
+    border-color: limegreen;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+.selected:hover{
+    cursor:pointer; cursor: hand;
+}
+
+.correct{
+    border:3px solid limegreen; 
+    border-radius: 10px;
+}
+
+.wrong{
+    border:3px solid red; 
+    border-radius: 10px;
+}
+
+.option{
+    border: 3px solid limegreen;
+}
+
+.option:hover{
+    cursor:pointer; cursor: hand;
+}
+
+.option1{
+    color: transparent;
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
+
+.option1:hover {
+    cursor:pointer; cursor: hand;
+}
+
+table td{
+    -moz-user-select: none; 
+    -webkit-user-select: none; 
+    -ms-user-select:none; 
+    user-select:none;
+    -o-user-select:none;
+}
